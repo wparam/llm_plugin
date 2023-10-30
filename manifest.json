@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "API Monitor",
+    "version": "1.0",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "permissions": [
+        "webRequest"
+    ],
+    "host_permissions": [
+        "*://chat.openai.com/*",
+        "https://www.google.com/*"
+    ]
+  }
+  
